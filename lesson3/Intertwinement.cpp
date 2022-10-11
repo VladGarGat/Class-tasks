@@ -2,8 +2,7 @@
 short RankLength(int);
 bool Getrank(int, int);
 void ToBinary(int);
-int main()
-{
+int main() {
 	int a, b, temp;
 	std::cout << "Enter the first int: ";
 	std::cin >> a;
@@ -27,7 +26,6 @@ int main()
 	std::cout << "\n\'b\' into binary: "; ToBinary(b);
 	std::cout << "\nIntertwined number's digital representation: " << preFinalDigit << std::endl;
 	std::cout << "Intertwined number's binary representation: "; ToBinary(preFinalDigit);
-
 }
 void ToBinary(int n)
 {
